@@ -363,10 +363,8 @@ a {
 
 .Hero h1 {
   font-size: 60px;
-  display: inline-block;
-  margin-top: 20%;
-  margin-left: 10%;
-  /* text-shadow: -2px -2px 4px #000;
+  text-align: center;
+  font-weight: 700;
 }
 
 #s3 {
