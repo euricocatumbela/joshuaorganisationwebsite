@@ -5,7 +5,8 @@ body {
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   margin: 0;
   /* font-size: 25px; */
-  background: #212c4f;
+  /* background: #212c4f; */
+  background-color: white;
 }
 
 /* .container-fluid {
@@ -93,7 +94,8 @@ h1 {
   -webkit-text-fill-color: transparent;
 }
 #s1 p {
-  color: white;
+  /* color: white; */
+  color: #8f8f8f;
   font-size: 14px;
 }
 #s1 h2 {
@@ -102,7 +104,8 @@ h1 {
 }
 
 #s2 p {
-  color: white;
+  /* color: white; */
+  color: #8f8f8f;
   font-size: 14px;
 }
 
@@ -189,22 +192,24 @@ a {
 
 #features {
   padding: 8% 15%;
-  background-color: #212c4f;
+  /* background-color: #212c4f; */
+  /* color: #fff; */
 }
 #features p {
   font-size: 14px;
   line-height: 1.7;
-  color: white;
-  background: linear-gradient(
+  /* color: white; */
+  color: #8f8f8f;
+  /* background: linear-gradient(
     104.74deg,
     rgb(198, 208, 235) 0%,
     rgb(198, 208, 235) 100%
   );
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  -webkit-text-fill-color: transparent; */
 }
 .kit {
-  border: 1px solid rgba(255, 255, 255, 0.2);
+  /* border: 1px solid rgba(255, 255, 255, 0.2); */
   box-shadow: rgba(0, 0, 0, 0.25) 0px 10px 20px;
   border-radius: 12px;
   color: white;
@@ -363,7 +368,8 @@ a {
 
 #s3 {
   padding: 8% 15%;
-  background-color: #212c4f;
+  /* background-color: #212c4f; */
+  background-color: white;
 }
 
 .kit p {
@@ -374,22 +380,25 @@ a {
   margin-top: 20px;
   margin-left: 20px;
   margin-bottom: 20px;
-  background: linear-gradient(
+  color: #8f8f8f;
+  /* background: linear-gradient(
     104.74deg,
     rgb(198, 208, 235) 0%,
     rgb(198, 208, 235) 100%
   );
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  -webkit-text-fill-color: transparent; */
 }
 
 #s1 {
   padding: 8% 15%;
-  background-color: #212c4f;
+  /* background-color: #212c4f; */
+  color: #fff;
 }
 #s2 {
   padding: 8% 15%;
-  background-color: #212c4f;
+  /* background-color: #212c4f; */
+  background-color: #fff;
 }
 #s3 h1 {
   margin-top: 10px;
@@ -447,7 +456,8 @@ a {
 
 #quote {
   padding: 8% 15%;
-  background-color: #212c4f;
+  /* background-color: #212c4f; */
+  background-color: #fff;
 }
 
 #quote form {
