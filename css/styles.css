@@ -1,4 +1,4 @@
-html {
+body {
   min-height: 100%;
   position: relative;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
@@ -8,7 +8,7 @@ html {
   background: #212c4f;
 }
 
-.container-fluid {
+/* .container-fluid {
   max-width: 1000px;
   margin-left: auto;
   margin-right: auto;
@@ -18,8 +18,8 @@ html {
   padding-left: 1%;
   color: #fff;
 
-  /* padding: 1em; */
-}
+  
+} */
 
 .wrapper {
   box-shadow: 0 0 20px rgba(72, 94, 196, 0.7);
@@ -27,10 +27,6 @@ html {
 
 .wrapper > * {
   padding: 1em;
-}
-
-.company-info {
-  /* background: #ef9a9a; */
 }
 
 .company-info h4 {
@@ -71,10 +67,6 @@ html {
   background: #fff;
   color: red;
 }
-/* .navbar-brand-logo {
-  width: 12.5rem;
-  height: 4.5rem;
-} */
 
 p {
   color: #8f8f8f;
@@ -114,9 +106,6 @@ h1 {
   font-size: 14px;
 }
 
-.col-lg-6 {
-}
-
 .p-size {
   color: #000;
   font-family: "Merriweather", serif;
@@ -135,7 +124,7 @@ h1 {
 .color-h3 {
   margin-bottom: 22px;
   font-family: "Merriweather", serif;
-  line-height: 1;
+  line-height: 2;
   background: linear-gradient(
     104.74deg,
     rgb(176, 30, 255) 0%,
@@ -143,7 +132,7 @@ h1 {
   );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-size: 30px;
+  font-size: 22px;
   font-weight: 700;
 }
 .main-color {
@@ -203,7 +192,7 @@ a {
   background-color: #212c4f;
 }
 #features p {
-  font-size: 12px;
+  font-size: 14px;
   line-height: 1.7;
   color: white;
   background: linear-gradient(
@@ -227,18 +216,16 @@ a {
   padding: 5%;
 }
 .icon {
-  color: #dbff3d;
+  background: linear-gradient(
+    104.74deg,
+    rgb(176, 30, 255) 0%,
+    rgb(225, 70, 124) 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   margin: 1rem;
 }
-.icon:hover {
-  color: yellow;
-}
-.lovely-icone {
-  color: #dbff3d;
-}
-.lovely-icone:hover {
-  color: #dbff3d;
-}
+
 .image-testemonial {
   width: 2%;
 
@@ -315,11 +302,21 @@ a {
   }
 }
 
+#title h1 {
+  font-size: 70px;
+  display: inline-block;
+  margin-top: 20%;
+  margin-left: 40%;
+  background: linear-gradient(156.9deg, #14f1d9 0%, #3672f8 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 /* Animations  */
 
-.Hero p {
-  margin-bottom: 22px;
-  font-size: 24px;
+#title p {
+  margin-bottom: 25px;
+  font-size: 28px;
   text-align: center;
   font-weight: 700;
   background: linear-gradient(156.9deg, #14f1d9 0%, #3672f8 100%);
@@ -330,7 +327,7 @@ a {
   border-right: 4px solid #fff;
   overflow: hidden;
   white-space: nowrap;
-  animation: typing 10s steps(27) forwards, blink-caret 0.8s step-end infinite;
+  animation: typing 14s steps(37) forwards, blink-caret 0.8s step-end infinite;
   animation-iteration-count: infinite;
 }
 
@@ -359,33 +356,17 @@ a {
   100% {
     width: 0%;
   }
-}
-
-.Hero h1 {
-  font-size: 60px;
-  text-align: center;
-  font-weight: 700;
+  0% {
+    height: 50%;
+  }
 }
 
 #s3 {
-  margin: 0px 0 220px 0;
-  padding: 15% 3%;
+  padding: 8% 15%;
   background-color: #212c4f;
 }
-#s3 .about {
-  margin: 0 auto;
-  width: 850px;
-  height: 500px;
-  border-style: solid;
-  border-color: white;
-  border-radius: 20px;
-  border: 1px solid rgba(255, 255, 255, 0.2);
-  box-shadow: rgba(0, 0, 0, 0.25) 0px 10px 20px;
-  border-radius: 12px;
-  color: white;
-}
 
-.about p {
+.kit p {
   text-align: center;
   line-height: 1.5;
   font-size: 14px;
@@ -458,6 +439,7 @@ a {
 }
 
 .footer div {
+  font-size: 12px;
   font-weight: 600;
   color: white;
   line-height: 2.8;
@@ -485,18 +467,44 @@ a {
 #pricing h2 {
   margin-top: 10px;
   margin-bottom: 30px;
-  font-size: 60px;
+  font-size: 30px;
   text-align: center;
   background: linear-gradient(156.9deg, #14f1d9 0%, #3672f8 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
+#pricing p {
+  font-size: 14px;
+}
+
 #pricing_2 h2 {
   margin-top: 10px;
   margin-bottom: 30px;
-  font-size: 60px;
+  font-size: 30px;
   text-align: center;
   background: linear-gradient(156.9deg, #14f1d9 0%, #3672f8 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+#pricing_2 {
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.nav-link {
+  text-transform: uppercase;
+  background: linear-gradient(156.9deg, #14f1d9 0%, #3672f8 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+form .submitButton {
+  color: white;
+  font-size: 30px;
+  margin: 0 0 0 -130px;
+  border-radius: 20px;
+  width: 295px;
+  height: 60px;
+  background: linear-gradient(149.89deg, #14f1d9 0%, #3672f8 100%);
 }

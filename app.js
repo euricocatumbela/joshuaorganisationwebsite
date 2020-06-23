@@ -8,10 +8,6 @@ app.use(express.static("css"));
 app.use("/css", express.static(path.join(__dirname, "css")));
 app.use("/images", express.static(path.join(__dirname, "images")));
 
-// app.get('/',(req,res) => {
-//   res.render('Contact');
-// });
-
 app.get("/", function (req, res) {
   res.sendFile(__dirname + "/index.html");
 });
